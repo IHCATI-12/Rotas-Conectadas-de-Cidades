@@ -38,6 +38,7 @@ Identificar cidades sem conexões
 Clone o repositório:
 
 bash
+
 git clone https://github.com/IHCATI-12/Rotas-Conectadas-de-Cidades.git
 
 Compile e execute:
@@ -50,17 +51,21 @@ java -cp bin/ Main
 java
 
 // Criando cidades
+
 Cidade sp = new Cidade("São Paulo", "SP", 12300000);
 Cidade rj = new Cidade("Rio de Janeiro", "RJ", 6748000);
 
 // Cadastrando no sistema
+
 mapa.cadastrarCidade(sp);
 mapa.cadastrarCidade(rj);
 
 // Criando rota
+
 mapa.criarRota(sp, rj, 430);
 
 // Consultando conexões
+
 Set<Rota> conexoes = mapa.getConexoes(sp);
 
 
