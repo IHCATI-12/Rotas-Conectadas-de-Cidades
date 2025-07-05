@@ -14,6 +14,7 @@ src/
 └── Main.java            # Classe de teste/demonstração
 
 🚀 Funcionalidades Implementadas
+
 ✔️ Cadastro de Cidades
 Armazena nome, estado (UF) e população
 
