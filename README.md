@@ -7,7 +7,6 @@ HashMap, TreeMap
 HashSet, TreeSet, Set
 
 🏗️ Estrutura do Projeto
-text
 src/
 ├── Cidade.java          # Classe que representa uma cidade
 ├── Rota.java            # Classe que representa uma rota entre cidades
